@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Verdana;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+}
+
+h1 {
+	font-size: 48px;
+	color: #060302;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+img {
+	max-width: 20%;
+}
+
+.home {
+	background-color: #DAC3B5;
+	margin-top: 40px;
+	border: none;
+	border-radius: 25px;
+}
+
+.home a {
+	color: #4E3A2C;
+	text-align: center;
+	display: block;
+	padding: 14px 20px;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+	h1 {
+		font-size: 40px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	h1 {
+		font-size: 24px;
+	}
+
+	img {
+		max-width: 50%;
+	}
+}
+
